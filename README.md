@@ -33,4 +33,23 @@ Futuristic neon UI, glassmorphism cards, fully responsive, ready for live demo.
 1.⁠ ⁠Clone the repo / रेपो क्लोन करें:
 ```bash
 git clone https://github.com/ritwikfilms-sketch/Neon-AI-Platform.git
+cd Neon-AI-Platform# 1️⃣ Clone the repo / रेपो क्लोन करें
+git clone https://github.com/ritwikfilms-sketch/Neon-AI-Platform.git
 cd Neon-AI-Platform
+
+# 2️⃣ Install Node.js dependencies / निर्भरता इंस्टॉल करें
+npm install
+
+# 3️⃣ Create .env file / .env फ़ाइल बनाएं
+# Open a text editor और add your OpenAI API key
+# .env content:
+OPENAI_API_KEY=your_openai_api_key_here
+
+# 4️⃣ Run backend API server / बैकएंड API सर्वर चलाएँ
+node api.js &
+
+# 5️⃣ Serve frontend / फ्रंटएंड सर्व करें
+npx serve .
+
+# 6️⃣ Open the app in your browser / ब्राउज़र में URL खोलें
+# Example: http://localhost:5000
