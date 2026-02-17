@@ -1,0 +1,50 @@
+[17/02/26, 9:30:04 PM] ritwikspandey: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon AI Platform Ultimate</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <h1 class="glow-text">Neon AI Platform</h1>
+  <button onclick="scrollToTools()" class="cta-btn">Start Creating</button>
+</header>
+
+<main id="tools" class="tools-section">
+  <div class="card chat-card">
+    <h2>AI Chat</h2>
+    <div id="chatWindow" class="chat-window"></div>
+    <input id="userInput" type="text" placeholder="Type your message...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <div class="card image-card">
+    <h2>Image Generator</h2>
+    <input type="text" id="imagePrompt" placeholder="Describe your image...">
+    <select id="imageStyle">
+      <option value="futuristic">Futuristic</option>
+      <option value="cyberpunk">Cyberpunk</option>
+      <option value="anime">Anime</option>
+    </select>
+    <button onclick="generateImage()">Generate Image</button>
+    <img id="resultImage" src="" alt="AI Image">
+  </div>
+
+  <div class="card voice-card">
+    <h2>Voice Generator</h2>
+    <textarea id="voiceText" placeholder="Type text to generate voice..."></textarea>
+    <select id="voiceSelect">
+      <option value="male">Male Voice</option>
+      <option value="female">Female Voice</option>
+    </select>
+    <button onclick="generateVoice()">Generate Voice</button>
+    <audio id="voiceAudio" controls></audio>
+  </div>
+</main>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
+[17/02/26, 9:30:51 PM] ritwikspandey: "Add index.html - main page"
